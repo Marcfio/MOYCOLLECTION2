@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "your_contract_address",
+  "SCAN_LINK": "https://rinkeby.etherscan.io/address/your_contract_address",
+  "NETWORK": {
+    "NAME": "Rinkeby",
+    "SYMBOL": "Rinkeby",
+    "ID": 4
+  },
+  "NFT_NAME": "MOY COLLECTION",
+  "SYMBOL": "MY",
+  "MAX_SUPPLY": 10000,
+  "WEI_COST": 100000000000000000,
+  "DISPLAY_COST": 0.1,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://market_place_link",
+  "SHOW_BACKGROUND": true
+}
