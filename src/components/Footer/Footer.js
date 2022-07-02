@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import { ethers } from "ethers";
-import './Header.css';
+import './Footer.css';
 import logoUrl from './logo.svg';
 
 
@@ -19,14 +19,8 @@ const connectWallet = async  () => {
 
 };
 
-const Header = () => (
+const Footer = () => (
   <div className="header">
-
-    <container >
-      <button onClick = {connectWallet} class = "button-19"> WALLET CONNECT </button>
-    </container>
-
-
 
 
     <button className = "discordbotton"  onClick = { open_discord } > </button>
@@ -39,4 +33,4 @@ const Header = () => (
   </div>
 
 )
-export default Header;
+export default Footer;
